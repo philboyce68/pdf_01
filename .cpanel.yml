@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLYPATH=/home/yellowfr/public_html/yellowfrog.com.au/pdf
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
